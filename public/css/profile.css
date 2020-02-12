@@ -1,0 +1,130 @@
+body {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #0090D2;
+  color: #fff;
+}
+
+.navbar-laravel {
+  background-color: #000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.navbar-brand {
+  color: #fff !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.table-dark {
+  color: #fff;
+}
+
+.list-group-item {
+  border-color: #fff;
+  background-color: #000;
+}
+
+.login-box {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.login-header {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.login-body {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.myprofile .row {
+  margin: 0;
+}
+
+.myprofile h2 {
+  margin-bottom: 20px;
+  padding-left: 15px;
+  border-left: 10px solid #fff;
+}
+
+.myprofile .profile-table {
+  border: 1px solid #fff;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.myprofile .profile-table dt {
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+}
+
+.myprofile .profile-table dt:last-of-type {
+  border-bottom: none;
+}
+
+.myprofile .profile-table dd {
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+.myprofile .profile-table dd:last-of-type {
+  border-bottom: none;
+}
+
+.myprofile .profile_edit .row {
+  line-height: 1.2;
+}
+
+.myprofile .profile_edit input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 0;
+}
+
+.myprofile .profile_edit input[type=radio] {
+  width: auto;
+}
+
+.myprofile .profile_edit label {
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+.myprofile .profile_edit dd {
+  padding: 0;
+}
+
+.btnwrap {
+  padding: 0;
+}
+
+.btnwrap .hensyu-btn {
+  padding: 0;
+}
+
+.btnwrap .hensyu-btn a,
+.btnwrap .hensyu-btn input {
+  display: block;
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background: #5abbe8;
+  box-shadow: 1px 1px 1px #dfdfdf;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.btnwrap .hensyu-btn a:hover,
+.btnwrap .hensyu-btn input:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6) inset;
+  text-decoration: none;
+}
+
