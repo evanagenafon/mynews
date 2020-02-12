@@ -62,9 +62,8 @@ class ProfileController extends Controller
     {
         $profile = Profile::find($request->id);
         if (empty($profile)) {
-        abort(404);    
+        abort(404);   
         }
         return view('admin.profile.index', ['profile_form' => $profile]);
     }
- 
 }
